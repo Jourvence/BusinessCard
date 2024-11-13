@@ -171,6 +171,32 @@ table {
 }
 
 #socialsBottomContainer{
+    display: flex;
+    align-self: center;
     width: 400px;
-    height: 100px;
+    margin-top: 25px;
+    padding-top: 20px;
+    justify-content: center;
+    height: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(22, 22, 25);
+}
+
+#socialImgs{
+    width: 40px;
+    height: 40px;
+}
+
+#insta{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#github{
+    margin-top: 5px;
+    width: 54px;
+    height: 30px;
 }
