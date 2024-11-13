@@ -46,6 +46,12 @@ table {
 }
 /* CSS Reset END */
 
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgb(28, 28, 28);
+}
 
 #cardContainer{
     display: grid;
@@ -58,10 +64,13 @@ table {
 
 #mainCardContent{
     width: 400px;
-    height: 350px;
-    margin: 0 auto;
-    padding-top: 40px;
+    height: 700px;
+    margin-top: 40px;
     position: relative;
+    background-color: rgb(26, 27, 33);
+    background-image: url('././images/portfolioPhoto.png');
+    background-repeat: no-repeat;
+    back
 }
 
 #portfolioPhoto{
@@ -77,5 +86,25 @@ table {
     justify-content: center;
     width: 600px;
     height: 800px;
-    background-color: gray;
+    background-color: rgb(33, 37, 44);
+}
+
+#nameTag{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+}
+
+#job{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: rgb(226, 135, 0);
 }

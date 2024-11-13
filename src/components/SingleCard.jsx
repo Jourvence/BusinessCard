@@ -1,13 +1,16 @@
 import React from "react";
 import TopImg from "./TopImg";
-
+import NameTag from "./NameTag";
+import Job from "./Job";
 
 function SingleCard() {
     return (
         <>
             <div id="singleCard">
                 <div id="mainCardContent">
-                    <TopImg/>
+                    {/* <TopImg/> */}
+                    <NameTag/>
+                    <Job/>
                 </div>
             </div>
         </>
