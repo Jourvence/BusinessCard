@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import TopImg from './components/TopImg'
+import SingleCard from './components/SingleCard'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <>
-      <TopImg/>
+      <SingleCard/>
+      
     </>
   )
 }
